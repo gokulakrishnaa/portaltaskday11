@@ -1,0 +1,74 @@
+input,
+select,
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.submit {
+  color: rgb(3, 77, 77);
+  border-radius: 3px;
+}
+
+.contactform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contactset {
+  border-radius: 5px;
+}
+
+.health {
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 10px;
+}
+
+.info {
+  background: hsl(0, 0%, 90%);
+  display: inline-block;
+}
+
+.card {
+  border: solid black;
+}
+
+.mark1 {
+  background: red;
+  color: white;
+}
+
+.name,
+.add,
+.det {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 80px;
+  padding: 10px;
+}
+
+.card {
+  display: inline-block;
+  height: 390px;
+  width: 460px;
+}
+
+.labellname {
+  padding-left: 75px;
+}
+
+.statelabel,
+.ziplabel {
+  padding-left: 70px;
+}

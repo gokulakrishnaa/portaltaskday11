@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletask.css">
+    <title>HTML Task Day 11</title>
+</head>
+<body>
+    <!-- Task Day 11 (Q.1) -->
+    <!-- Error in the given code has been debugged. Body tag has to come below head tag -->
+
+    <!-- Task Day 11 (Q.2) -->
+    <!-- Error in the given code has been debugged. Body tag has to come below head tag and title & div tags has to be closed -->
+
+    <!-- Task Day 11 (Q.3) -->
+    <div class="contactform">
+        <form action="www.google.com" method="POST" id="contactus">
+            <fieldset class="contactset">
+                <legend><b>Contact us</b></legend>
+                <label for="firstname">First Name</label><br>
+                <input type="text" id="firstname" name="firstname" placeholder="enter first name" required="required"><br>
+
+                <label for="lastname">Last Name</label><br>
+                <input type="text" id="lastname" name="lastname" placeholder="enter last name" required="required"><br>
+
+                <label for="country">Country</label><br>
+                <select id="country">
+                    <option value="india">India</option>
+                    <option value="usa">United States of America</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="japan">Japan</option>
+                </select><br>
+
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Write Something..." style="height: 100px;" required="required"><br>
+
+                <button type="submit" id="submit" class="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Task Day 11 (Q.4) -->
+    <ul>
+        <li>Programming Language</li>
+        <ul>
+            <li>JavaScript</li>
+            <ol type="a">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue</li>
+            </ol>
+            <li>Python</li>
+            <ol type="a">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+            </ol>
+            <li>Java</li>
+            <ol type="a">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol>
+        </ul>
+        <li>Database</li>
+        <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Casandra</li>
+        </ul>
+    </ul>
+
+    <!-- Task Day 11 (Q.5) -->
+    <p>Click here <a href="https://www.google.com" target="_blank" rel="noreferrer noopener">Google.com</a></p>
+
+    <!-- Task Day 11 (Q.6) -->
+    <div>
+        <label for="emp">Employee Salary</label>
+        <input type="radio" id="salaried" name="salary">
+        <label for="salaried">Salaried</label>
+        <input type="radio" id="business" name="salary">
+        <label for="business">Business</label>
+    </div><br>
+
+    <!-- Task Day 11 (Q.7) -->
+    <div class ="info">
+        <form>
+        <fieldset class="card">
+            <h2><mark class="mark1">Yes! I want to subscribe to <i>Mag-O-Zine</i></mark></h2>
+            <div class="part1">
+                <input type="text" id="fname" name="fname" class="name" style="width: 125px;">
+                <input type="text" id="lname" name="lname" class="name" style="width: 125px;"><br>
+                <label for="fname">First Name</label>
+                <label for="lname" class="labellname">Last Name</label>
+                <br>
+                <input type="text" id="add" name="add" class="add" style="width:275px;"><br>
+                <label for="add">Address</label>
+                <br>
+                <input type="text" id="city" name="city" class="det">
+                <input type="text" id="state" name="state" class="det">
+                <input type="number" id="zip" name="zip" class="det"><br>
+                <label for="city">City</label>
+                <label for="state" class="statelabel">State</label>
+                <label for="zip" class="ziplabel">Zip</label>
+            </div>
+            <br>
+            <div class="part4"><b>
+                <label for="sub">Subscribe for:</label>
+                <input type="checkbox" id="oneyr" name="oneyr">
+                <label for="oneyr">1 year ($19.95)</label>
+                <input type="checkbox" id="twoyr" name="twoyr">
+                <label for="twoyr">2 year ($35.00)</label>
+            </b>
+            </div>
+            <div class="part5"><b>
+                <label for="sendinfo">Send me more information about:</label><br>
+                <input type="checkbox" id="cz" name="cz">
+                <label for="cz">Computer-Zine</label><br>
+                <input type="checkbox" id="fz" name="fz">
+                <label for="fz">Fishing-Zine</label> <br>
+                <input type="checkbox" id="coz" name="coz">
+                <label for="coz">Cat-O-Zine</label></b>
+            </div>
+        </fieldset>
+    </form>
+    </div>
+
+    <!-- Task Day 11 (Q.8) -->
+    <table class="health" border="1">
+        <caption>Health Chart</caption>
+        <thead>
+        <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Eating</th>
+        </tr>
+        <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <th>2 hours after Eating</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Task Day 11 (Q.9) -->
+    <div>
+    <fieldset>
+    <input type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text"> 
+    <input type="time">
+    <input type="url">
+    <input type="week">
+    </fieldset>
+    </div>
+
+    <!-- Task Day 11 (Q.10) -->
+    <ul><li><mark>HTML & CSS is awesome</mark></li></ul>
+
+    <!-- Task Day 11 (Q.11) -->
+    <fieldset>
+        <legend><b>Input Types</b></legend>
+        <input type="submit" id="click" name="click"><br>
+        <div>
+            <input type="checkbox" id="sports" name="hobbies">Sports<br>
+            <input type="checkbox" id="Books" name="hobbies">Books<br>
+            <input type="checkbox" id="Music" name="hobbies">Music<br>
+            <input type="checkbox" id="Movies" name="hobbies">Movies<br>
+        </div>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" placeholder="Enter password"><br>
+        <label for="mailid">E-Mail:</label>
+        <input type="email" id="mailid" name="mailid" placeholder="Enter mail id"><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="range">Points Range from 0 to 10</label><br>
+        <input type="range" id="range" name="range"><br>
+        
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br>
+
+        <input type="time" id="time" name="time"><br>
+        <label for="search">Search</label>
+        <input type="search" id="search" name="search"><br>
+        <label for="col">Color</label>
+        <input type="color" id="col" name="col"><br>
+        <input type="image" id="img" name="img"><br>
+        <input type="file" id="file" name="file"><br>
+        <input type="reset" id="reset" name="reset">
+    </fieldset>
+</body>
+</html>
